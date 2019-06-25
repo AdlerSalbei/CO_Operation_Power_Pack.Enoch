@@ -20,7 +20,7 @@ _marker setMarkerText "FUNK:";
     _x params ["_freq", "_desc"];
 
     private _name = format ["grad_radioMarker_%1", _forEachIndex];
-    private _pos = [worldSize + 200, worldSize - 450, 0] vectorAdd [0,_forEachIndex * (-350), 0];
+    private _pos = [worldSize + 200, worldSize - 450, 0] vectorAdd [0,_forEachIndex * (-250), 0];
     private _marker = createMarker [_name, _pos];
     _marker setMarkerType "mil_dot";
     _marker setMarkerColor "COLORBLACK";

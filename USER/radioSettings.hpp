@@ -8,14 +8,14 @@
 *   Beispiel:
     class net1 {
         freq = 32.5;
-        name = "Command Kanal";
+        name = "Command";
     };
 
     //[...]
 
     class net10 {
         freq = 80.1;
-        name = "Air Intern";
+        name = "Air";
     };
 */
 
@@ -23,42 +23,42 @@
 class shortrange {
     class net1 {
         freq = 50;
-        name = "Sierra Intern";
+        name = "Sierra";
     };
 
     class net2 {
         freq = 60;
-        name = "Echo Intern";
+        name = "Echo";
     };
 
     class net3 {
         freq = 70;
-        name = "Echo 1 Intern";
+        name = "Echo 1";
     };
 
     class net4 {
         freq = 80;
-        name = "Echo 2 Intern";
+        name = "Echo 2";
     };
 
     class net5 {
         freq = 90;
-        name = "Foxtrott Intern";
+        name = "Foxtrott";
     };
 
     class net6 {
         freq = 100;
-        name = "Foxtrott 1 Intern";
+        name = "Foxtrott 1";
     };
 
     class net7 {
         freq = 110;
-        name = "Foxtrott 2 Intern";
+        name = "Foxtrott 2";
     };
 
     class net8 {
         freq = 120;
-        name = "Mike Intern";
+        name = "Mike";
     };
 };
 
@@ -67,17 +67,17 @@ class shortrange {
 class longrange {
     class net1 {
         freq = 42;
-        name = "OPT Kanal";
+        name = "OPT";
     };
 
     class net2 {
         freq = 43;
-        name = "Command Kanal";
+        name = "Command";
     };
 
     class net3 {
         freq = 44;
-        name = "Air Kanal";
+        name = "JTAC/Air";
     };
 
     class net4 {
