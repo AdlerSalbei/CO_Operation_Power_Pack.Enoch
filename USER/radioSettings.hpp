@@ -23,34 +23,42 @@
 class shortrange {
     class net1 {
         freq = 50;
+        name = "Sierra Intern";
     };
 
     class net2 {
         freq = 60;
+        name = "Echo Intern";
     };
 
     class net3 {
         freq = 70;
+        name = "Echo 1 Intern";
     };
 
     class net4 {
         freq = 80;
+        name = "Echo 2 Intern";
     };
 
     class net5 {
         freq = 90;
+        name = "Foxtrott Intern";
     };
 
     class net6 {
         freq = 100;
+        name = "Foxtrott 1 Intern";
     };
 
     class net7 {
         freq = 110;
+        name = "Foxtrott 2 Intern";
     };
 
     class net8 {
         freq = 120;
+        name = "Mike Intern";
     };
 };
 
@@ -58,38 +66,41 @@ class shortrange {
 //LONGRANGE KANÄLE =============================================================
 class longrange {
     class net1 {
-        freq = 32;
+        freq = 42;
+        name = "OPT Kanal";
     };
 
     class net2 {
-        freq = 33;
+        freq = 43;
+        name = "Command Kanal";
     };
 
     class net3 {
-        freq = 34;
+        freq = 44;
+        name = "Air Kanal";
     };
 
     class net4 {
-        freq = 35;
+        freq = 45;
     };
 
     class net5 {
-        freq = 36;
+        freq = 46;
     };
 
     class net6 {
-        freq = 37;
+        freq = 47;
     };
 
     class net7 {
-        freq = 38;
+        freq = 48;
     };
 
     class net8 {
-        freq = 39;
+        freq = 49;
     };
 
     class net9 {
-        freq = 40;
+        freq = 51;
     };
 };

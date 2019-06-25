@@ -18,7 +18,7 @@
 */
 
 
-loadoutFactionBlu = "";
+loadoutFactionBlu = "USMarines";
 loadoutFactionOpf = "";
 loadoutFactionInd = "";
 

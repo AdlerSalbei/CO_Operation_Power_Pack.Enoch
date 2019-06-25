@@ -1,0 +1,62 @@
+<company side="" natosymbol="hq" callsign="Game Master" vehicletype="">
+	<slot shortcode="Z" description="Zeus"/>
+	<slot shortcode="Z" description="Zeus"/>
+	<slot shortcode="Z" description="Zeus"/>
+	<platoon side="" natosymbol="inf" callsign="Oscar" vehicletype="M1220">
+		<slot shortcode="PTL" description="Platoon Leader"/>
+		<slot shortcode="PTA" description="Assistant Platoon Leader"/>
+		<squad side="" natosymbol="inf" callsign="ECHO" vehicletype="M1232 M2">
+			<slot shortcode="SQL" description="Squad Leader"/>
+			<slot shortcode="SQA" description="Assistant Squad Leader"/>
+			<fireteam>
+				<slot shortcode="FTL" description="Fireteam Leader"/>
+				<slot shortcode="MMG" description="MMG"/>
+				<slot shortcode="AMMG" description="Assistant MMG"/>
+				<slot shortcode="G" description="Grenadier"/>
+			</fireteam>
+			<fireteam>
+				<slot shortcode="FTL" description="Fireteam Leader"/>
+				<slot shortcode="AT" description="AT"/>
+				<slot shortcode="AAT" description="Assistant AT"/>
+				<slot shortcode="G" description="Grenadier"/>
+			</fireteam>
+		</squad>
+		<squad side="" natosymbol="inf" callsign="FOXTROTT" vehicletype="M1232 M2">
+			<slot shortcode="SQL" description="Squad Leader"/>
+			<slot shortcode="SQA" description="Assistant Squad Leader"/>
+			<fireteam>
+				<slot shortcode="FTL" description="Fireteam Leader"/>
+				<slot shortcode="LMG" description="LMG"/>
+				<slot shortcode="ALMG" description="Assistant LMG"/>
+				<slot shortcode="R" description="Rifleman"/>
+			</fireteam>
+			<fireteam>
+				<slot shortcode="FTL" description="Fireteam Leader"/>
+				<slot shortcode="R" description="Rifleman"/>
+				<slot shortcode="R" description="Rifleman"/>
+				<slot shortcode="R" description="Rifleman"/>
+			</fireteam>
+		</squad>
+		<squad side="" natosymbol="med" callsign="Mike" vehicletype="M1220">
+			<slot shortcode="MTL" description="Medic Team Lead"/>
+			<slot shortcode="M" description="Medic"/>
+			<slot shortcode="M" description="Medic"/>
+			<slot shortcode="M" description="Medic"/>
+		</squad>
+		<squad side="" natosymbol="recon" callsign="Sierra" vehicletype="MRZR">
+			<slot shortcode="RTL" description="Recon Team Lead"/>
+			<slot shortcode="JTAC" description="Joint Terminal Attack Controller"/>
+			<slot shortcode="RM" description="Recon Marksman"/>
+			<slot shortcode="RR" description="Recon Rifleman"/>
+		</squad>
+		<squad side="" natosymbol="air" callsign="Hotel 1" vehicletype="AH-1Z">
+			<slot shortcode="P" description="Pilot"/>
+			<slot shortcode="CP" description="Co-Pilot"/>
+		</squad>
+		<squad side="" natosymbol="air" callsign="Hotel 2" vehicletype="AH-1Z">
+			<slot shortcode="P" description="Pilot"/>
+			<slot shortcode="CP" description="Co-Pilot"/>
+		</squad>
+	</platoon>
+</company>
+</match>
