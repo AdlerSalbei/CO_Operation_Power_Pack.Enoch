@@ -14,6 +14,7 @@ if (_loadoutFactionBlu != "") then {
 };
 if (_loadoutFactionOpf != "") then {
     ["OPF_F", _loadoutFactionOpf] call GRAD_Loadout_fnc_FactionSetLoadout;
+    ["OPF_T_F", "LevoniaSpecialForces"] call GRAD_Loadout_fnc_FactionSetLoadout;
 };
 if (_loadoutFactionInd != "") then {
     ["IND_F", _loadoutFactionInd] call GRAD_Loadout_fnc_FactionSetLoadout;

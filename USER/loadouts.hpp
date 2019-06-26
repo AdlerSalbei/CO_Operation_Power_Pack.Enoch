@@ -19,7 +19,7 @@
 
 
 loadoutFactionBlu = "USMarines";
-loadoutFactionOpf = "";
+loadoutFactionOpf = "LevoniaForces";
 loadoutFactionInd = "";
 
 // Achtung: grad-factions enthält derzeit keine Loadouts, die für Zivilisten funktionieren
