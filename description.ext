@@ -92,6 +92,21 @@ class CfgSounds {
 	#include "USER\userSounds.hpp"
 };
 
+class CfgMusic
+{
+	tracks[] = {};
+	class introMusic
+	{
+		name	= "introMusic";
+		sound[]	= { "\data\intro.ogg", db + 0, 1.0 };
+	};
+	class outroMusic
+	{
+		name	= "outroMusic";
+		sound[]	= { "\data\outro.ogg", db + 0, 1.0 };
+	};
+};
+
 
 //GRAD LOADOUT =================================================================
 class Loadouts {

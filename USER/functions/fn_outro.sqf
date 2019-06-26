@@ -181,3 +181,7 @@ showCinemaBorder false;
         }, [], 2] call CBA_fnc_waitAndExecute;
     }, _this, 16] call CBA_fnc_waitAndExecute;
 }, [_camera], 6] call CBA_fnc_waitAndExecute;
+
+private _chairs = [circleJerk, 5, "Land_CampingChair_V2_F"] call grad_user_fnc_chairCircle;
+
+[_chairs] call grad_user_fnc_seatPlayers;
