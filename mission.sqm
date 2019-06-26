@@ -8,7 +8,7 @@ class EditorData
 	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=1590;
+		nextID=1594;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=234;
+		nextID=242;
 	};
 	class Camera
 	{
-		pos[]={7611.3887,33.113605,7533.9707};
-		dir[]={-0.41954613,-0.75115985,-0.50989395};
-		up[]={-0.47729498,0.66005778,-0.58008003};
-		aside[]={-0.77228528,-3.4720142e-007,0.6354447};
+		pos[]={7509.2607,56.737621,7568.1919};
+		dir[]={-0.71031272,-0.61583358,-0.34092274};
+		up[]={-0.55520266,0.78786087,-0.26649866};
+		aside[]={-0.43272027,1.5761994e-005,0.90153915};
 	};
 };
 binarizationWanted=0;
@@ -40,13 +40,14 @@ addons[]=
 	"rhsusf_c_mrzr",
 	"RHS_US_A2_AirImport",
 	"ace_explosives",
-	"A3_Characters_F_Exp"
+	"A3_Characters_F_Exp",
+	"CUP_CAMisc"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=12;
+		items=13;
 		class Item0
 		{
 			className="A3_Modules_F_Heli";
@@ -130,6 +131,11 @@ class AddonsMetaData
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item12
+		{
+			className="CUP_CAMisc";
+			name="CUP_CAMisc";
 		};
 	};
 };
@@ -3462,7 +3468,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=24;
+		items=25;
 		class Item0
 		{
 			dataType="Layer";
@@ -3723,7 +3729,7 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={7421.6348,5,7521.9419};
+						position[]={7471.9302,5,7536.0435};
 					};
 					name="virtualZeus1";
 					isPlayable=1;
@@ -3775,7 +3781,7 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={7420.7534,5,7489.1538};
+						position[]={7471.9067,5,7503.9082};
 					};
 					name="virtualZeus2";
 					isPlayable=1;
@@ -3827,7 +3833,7 @@ class Mission
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={7420.2266,5,7445.8291};
+						position[]={7471.7861,5,7471.9849};
 					};
 					name="virtualZeus3";
 					isPlayable=1;
@@ -7636,6 +7642,21 @@ class Mission
 			{
 			};
 			id=1577;
+		};
+		class Item24
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7632.3213,5,7567.8354};
+			};
+			side="Empty";
+			class Attributes
+			{
+				name="circleJerk";
+			};
+			id=1590;
+			type="HeliHEmpty";
 		};
 	};
 	class Connections

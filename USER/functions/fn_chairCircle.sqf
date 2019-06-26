@@ -1,13 +1,12 @@
-params ["_pos", "_distance", "_type"];
+params ["_pos", "_distance", "_type", ["_count", count (playableUnits + switchableUnits)]];
 
-private _count = count (playableUnits + switchableUnits);
 private _positions = [];
 private _angle = 360/_count;
 private _direction = 0;
 
 for "_i" from 1 to _count do {
 
-	private _newPos = _origin getPos [_distance, _direction];
+	private _newPos = _pos getPos [_distance, _direction];
 
 	_positions pushBack _newPos;
 
@@ -19,7 +18,6 @@ private _chairs = [];
 {
   	private _chair = createVehicle [_type, _x, [], 0, "CAN_COLLIDE"];
   	_chair setDir ((_chair getRelDir _pos) - 180);
-    _chair setPos _x;
   	_chairs pushBack _chair;
 } forEach _positions;
 
