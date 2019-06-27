@@ -8,5 +8,6 @@ class GRAD_USER {
         file = "USER\functions";
         class chairCircle {};
         class seatPlayers {};
+        class streamUAVView {};
     };
 };

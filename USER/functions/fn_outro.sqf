@@ -184,4 +184,4 @@ showCinemaBorder false;
 
 private _chairs = [circleJerk, 5, "Land_CampingChair_V2_F"] call grad_user_fnc_chairCircle;
 
-[_chairs] call grad_user_fnc_seatPlayers;
+[_chairs, (playableUnits + switchableUnits)] call grad_user_fnc_seatPlayers;

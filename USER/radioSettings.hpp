@@ -67,7 +67,7 @@ class shortrange {
 class longrange {
     class net1 {
         freq = 42;
-        name = "OPT";
+        name = "OPZ";
     };
 
     class net2 {

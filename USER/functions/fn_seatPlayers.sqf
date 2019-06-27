@@ -1,4 +1,4 @@
-params ["_chairs"];
+params ["_chairs", ["_unitsToSeat", (playableUnits + switchableUnits)]];
 
 {
     if (_chairs isEqualTo []) exitWith {};

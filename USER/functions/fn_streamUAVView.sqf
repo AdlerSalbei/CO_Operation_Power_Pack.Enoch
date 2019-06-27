@@ -1,8 +1,8 @@
-params ["_uav", "_panel"];
+params ["_uav", "_panel", ["_panelSelection", 0] ["_fov", 0.1], ["_pipEffect", 2]];
 
 /* create render surface */
 //_bb = "Land_Billboard_F" createVehicle position player;
-_bb setObjectTexture [0, "#(argb,512,512,1)r2t(uavrtt,1)"];
+_panel setObjectTexture [_panelSelection, "#(argb,512,512,1)r2t(uavrtt,1)"];
 
 /*
 // create uav and make it fly
@@ -32,10 +32,10 @@ _cam camSetTarget _target;
 */
 
 /* make it zoom in a little */
-_cam camSetFov 0.1;
+_cam camSetFov _fov;
 
 /* switch cam to thermal */
-"uavrtt" setPiPEffect [2];
+"uavrtt" setPiPEffect [_pipEffect];
 
 /* adjust cam orientation */
 [

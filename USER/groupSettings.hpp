@@ -1,7 +1,7 @@
 /*
 *   Legt Gruppennamen, Standard- und Sonderkanäle fest.
 *   Gruppenspezifische Kanäle können über die Einträge channel1-channel8 für Shortrange und channel1-channel9 für Longrange festgelegt werden.
-*   Hier werden die in der radiosettings.hpp definierten Kanalnamen oder Klassennamen der Kanäle verwendet.
+*   Hier werden die in der radiosettings.hpp definiertennamen oder Klassennamen der Kanäle verwendet.
 *
 *   Beispiel:
 *
@@ -14,9 +14,9 @@
                 altChannel = 3;
                 altChannelOnlyTL = 1;
 
-                channel1 = "Command Kanal";
+                channel1 = "Command";
                 channel3 = "net13";
-                channel7 = "Command Intern";
+                channel7 = "Command";
             };
 
             class longrange {
@@ -40,8 +40,8 @@ class BLUFOR {
             defaultChannel = 2;
             altChannel = 1;
 
-            channel2 = "Command Kanal";
-            channel1 = "OPT Kanal";
+            channel2 = "Command";
+            channel1 = "OPZ";
         };
     };
 
@@ -51,13 +51,13 @@ class BLUFOR {
         class shortrange {
             defaultChannel = 2;
 
-            channel2 = "Echo Intern";
+            channel2 = "Echo";
         };
 
         class longrange {
             defaultChannel = 2;
 
-            channel2 = "Command Kanal";
+            channel2 = "Command";
         };
     };
 
@@ -69,8 +69,8 @@ class BLUFOR {
             altChannel = 3;
             altChannelOnlyTL = 1;
 
-            channel2 = "Echo Intern";
-            channel3 = "Echo 1 Intern";
+            channel2 = "Echo";
+            channel3 = "Echo 1";
         };
     };
 
@@ -82,8 +82,8 @@ class BLUFOR {
             altChannel = 4;
             altChannelOnlyTL = 1;
 
-            channel2 = "Echo Intern";
-            channel4 = "Echo 2 Intern";
+            channel2 = "Echo";
+            channel4 = "Echo 2";
         };
     };
 
@@ -93,13 +93,13 @@ class BLUFOR {
         class shortrange {
             defaultChannel = 5;
 
-            channel5 = "Foxtrott Intern";
+            channel5 = "Foxtrott";
         };
 
         class longrange {
             defaultChannel = 2;
 
-            channel2 = "Command Kanal";
+            channel2 = "Command";
         };
     };
 
@@ -111,8 +111,8 @@ class BLUFOR {
             altChannel = 5;
             altChannelOnlyTL = 1;
 
-            channel6 = "Foxtrott 1 Intern";
-            channel5 = "Foxtrott Intern";
+            channel6 = "Foxtrott 1";
+            channel5 = "Foxtrott";
         };
     };
 
@@ -124,8 +124,8 @@ class BLUFOR {
             altChannel = 5;
             altChannelOnlyTL = 1;
 
-            channel7 = "Foxtrott 2 Intern";
-            channel5 = "Foxtrott Intern";
+            channel7 = "Foxtrott 2";
+            channel5 = "Foxtrott";
         };
     };
 
@@ -135,13 +135,13 @@ class BLUFOR {
         class shortrange {
             defaultChannel = 8;
 
-            channel8 = "Mike Intern";
+            channel8 = "Mike";
         };
 
         class longrange {
             defaultChannel = 2;
 
-            channel2 = "Command Kanal";
+            channel2 = "Command";
         };
     };
 
@@ -151,14 +151,14 @@ class BLUFOR {
         class shortrange {
             defaultChannel = 1;
 
-            channel1 = "Sierra Intern";
+            channel1 = "Sierra";
 
         };
 
         class longrange {
             defaultChannel = 2;
 
-            channel2 = "Command Kanal";
+            channel2 = "Command";
         };
     };
 
@@ -168,8 +168,8 @@ class BLUFOR {
             defaultChannel = 2;
             altChannel = 1;
 
-            channel2 = "Command Kanal";
-            channel1 = "OPT Kanal";
+            channel2 = "Command";
+            channel1 = "OPZ";
         };
     };
 
@@ -179,8 +179,8 @@ class BLUFOR {
             defaultChannel = 2;
             altChannel = 1;
 
-            channel2 = "Command Kanal";
-            channel1 = "OPT Kanal";
+            channel2 = "Command";
+            channel1 = "OPZ";
         };
     };
 };
