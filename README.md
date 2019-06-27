@@ -61,22 +61,37 @@ Die Nachrichten Dienste verschiedener NATO Länder, haben es geschafft eine Quel
 
 ### Map
 
-### US Marines
+### Blufor
+#### US Marines
+![20190627205351_1.jpg](https://i.imgur.com/sdUCrji.jpg)
 
-### Levonia Forces
+#### Pilots
+![20190627205357_1.jpg](https://i.imgur.com/mDgHYJk.jpg)
 
-### Levonia Special Forces
+#### Aufklärung
+![20190627205407_1.jpg](https://i.imgur.com/F3ofs5a.jpg)
+
+### Opfor
+#### Levonia Forces
+![20190627211839_1.jpg](https://i.imgur.com/xtVxAU4.jpg)
+
+#### Levonia Special Forces
+![20190627211807_1.jpg](https://i.imgur.com/znnComW.jpg) 
+
+
+### Infos für Command
+#### Intel für das erste Ziel
+
+#### Intel für das zweite Ziel
 
 
 
-# Infos für Command
-## Intel für das erste Ziel
+### Info für JTAC
+#### MAP mit AA Positionen
 
-## Intel für das zweite Ziel
+#### MAP mit Holding Areas
 
 
-
-# Info für JTAC
-## MAP mit AA Positionen
-
-## MAP mit Holding Areas
+### Commands
+[uav_01, screen_1,uavTarget_01, 0, 1] call grad_user_fnc_streamUAVView;
+["ChangeCamUAV", [uavTarget_01,0.1,8,10]] call CBA_fnc_globalEvent;
